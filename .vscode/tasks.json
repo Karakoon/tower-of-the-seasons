@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\MinGW-7.3.0\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${workspaceFolder}\\bin\\Tower of the Seasons.exe",
+				"-IC:\\SFML-2.5.1\\include",
+				"-LC:\\SFML-2.5.1\\lib",
+				"-lsfml-graphics",
+				"-lsfml-window",
+				"-lsfml-system"
+			],
+			"options": {
+				"cwd": "C:/MinGW-7.3.0/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: \"C:/MinGW-7.3.0/bin/g++.exe\""
+		}
+	]
+}
